@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('../lib/app');
+require('../data/data-helpers');
 
 describe('auth routes', () => {
   it('signs up a new user via POST and returns user', async () => {
