@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXIST stories CASCADE;
 
 CREATE TABLE users (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -6,3 +7,12 @@ CREATE TABLE users (
   password_hash TEXT NOT NULL,
   name TEXT NOT NULL
 );
+
+CREATE TABLE stories (
+  story_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  message TEXT NOT NULL,
+  choices JSONB NOT NULL,
+  img TEXT,
+  sound TEXT
+)
