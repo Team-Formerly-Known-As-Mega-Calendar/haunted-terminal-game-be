@@ -9,14 +9,12 @@ describe('auth routes', () => {
       .post('/api/v1/auth/signup')
       .send({
         email: 'test@test.com',
-        password: 'password',
-        name: 'Bonzi'
+        password: 'password'
       });
 
     expect(response.body).toEqual({
       id: expect.any(String),
-      email: 'test@test.com',
-      name: 'Bonzi'
+      email: 'test@test.com'
     });
   });
 
@@ -24,7 +22,6 @@ describe('auth routes', () => {
     const user = await UserService.create({
       email: 'test@test.com',
       password: 'password',
-      name: 'Bonzi'
     });
 
     const response = await request(app)
@@ -36,8 +33,7 @@ describe('auth routes', () => {
 
     expect(response.body).toEqual({
       id: user.id,
-      email: 'test@test.com',
-      name: 'Bonzi'
+      email: 'test@test.com'
     });
   });
 });
