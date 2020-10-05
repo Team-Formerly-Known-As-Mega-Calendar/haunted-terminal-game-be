@@ -5,7 +5,7 @@ require('../data/data-helpers');
 
 
 describe('stage routes', () => {
-  it('creates a new stage via POST and returns stage', async() => {
+  it('creates a new stage via POST and returns stage', async () => {
     return request(app)
       .post('/api/v1/stage')
       .send({
@@ -17,7 +17,7 @@ describe('stage routes', () => {
         sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
       })
 
-      .then (res => {
+      .then(res => {
         expect(res.body).toEqual({
           stageId: '1-origin',
           name: 'D.O.M.',
@@ -29,7 +29,7 @@ describe('stage routes', () => {
       });
   });
 
-  it('gets a stage by its stageId via GET', async() => {
+  it('gets a stage by its stageId via GET', async () => {
     const stage = await Stage.insert({
       stageId: '1-origin',
       name: 'D.O.M.',
@@ -45,6 +45,37 @@ describe('stage routes', () => {
           name: 'D.O.M.',
           message: 'This is 1-origin node',
           choices: [{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }],
+          img: 'placekitten.com/200/200',
+          sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
+        });
+      });
+  });
+
+  it('updates a stage by its stageId via PUT', async () => {
+    const stage = await Stage.insert({
+      stageId: '1-origin',
+      name: 'D.O.M.',
+      message: 'This is 1-origin node',
+      choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
+      img: 'placekitten.com/200/200',
+      sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
+    });
+    return request(app)
+      .put(`/api/v1/stage/${stage.stageId}`)
+      .send({
+        stageId: '1-origin',
+        name: 'B.R.O.',
+        message: 'This is 2-origin node',
+        choices: JSON.stringify([{ prompt: 'choice 1', next: '2-A1' }, { prompt: 'choice 2', next: '2-A2' }]),
+        img: 'placekitten.com/200/200',
+        sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
+      })
+      .then(res => {
+        expect(res.body).toEqual({
+          stageId: '1-origin',
+          name: 'B.R.O.',
+          message: 'This is 2-origin node',
+          choices: [{ prompt: 'choice 1', next: '2-A1' }, { prompt: 'choice 2', next: '2-A2' }],
           img: 'placekitten.com/200/200',
           sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
         });
