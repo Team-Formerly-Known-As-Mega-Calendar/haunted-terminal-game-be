@@ -5,7 +5,7 @@ require('../data/data-helpers');
 
 
 describe('stage routes', () => {
-  it('creates a new stage via POST and returns stage', async () => {
+  it('creates a new stage via POST and returns stage', async() => {
     return request(app)
       .post('/api/v1/stage')
       .send({
@@ -29,7 +29,7 @@ describe('stage routes', () => {
       });
   });
 
-  it('gets a stage by its stageId via GET', async () => {
+  it('gets a stage by its stageId via GET', async() => {
     const stage = await Stage.insert({
       stageId: '1-origin',
       name: 'D.O.M.',
@@ -51,7 +51,7 @@ describe('stage routes', () => {
       });
   });
 
-  it('updates a stage by its stageId via PUT', async () => {
+  it('updates a stage by its stageId via PUT', async() => {
     const stage = await Stage.insert({
       stageId: '1-origin',
       name: 'D.O.M.',
@@ -80,5 +80,19 @@ describe('stage routes', () => {
           sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
         });
       });
+  });
+
+  it('deletes a stage via DELETE', async() => {
+    const stageToDelete = await Stage.insert({
+      stageId: '1-origin',
+      name: 'D.O.M.',
+      message: 'This is 1-origin node',
+      choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
+      img: 'placekitten.com/200/200',
+      sound: 'https://www.audioblocks.com/stock-audio/crescendo-reverse-piano-low-be3xmjh2uwrk0wxu6ku.html',
+    });
+    const response = await request(app)
+      .delete(`/api/v1/stage/${stageToDelete.stageId}`);
+    expect(response.body).toEqual({ ...stageToDelete, choices: [{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }] });
   });
 });
