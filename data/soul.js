@@ -1,5 +1,5 @@
 module.exports = [{
-  stageId: 'soul-Start',
+  stageId: 'soul-start',
   message: `
   What's this weird code? It looks super complicated... You start to look through the myriad files and documents that have popped on screen, when you hear a ghostly wail: "You'd better not touch my code, kid!" A hand clutches your shoulder.
   `,
@@ -39,7 +39,7 @@ module.exports = [{
   `,
   choices: JSON.stringify([{
     prompt:  'Back to the beginning.',
-    next: 'soul-Start'
+    next: 'soul-start'
   }]),
   img: '',
   sound: ''
@@ -73,7 +73,7 @@ module.exports = [{
   },
   {
     prompt: 'Go back to the beginning.',
-    next: 'soul-Start'
+    next: 'soul-start'
   }]),
   img: '',
   sound: ''
@@ -93,7 +93,7 @@ module.exports = [{
   },
   {
     prompt: 'Ha! What a sucker! Let\'s just keep all this information and build our own magnificent technology. It will bring us fame and fortune!',
-    next: 'soul-end3'
+    next: 'soul-f3'
   }]),
   img: '',
   sound: ''
@@ -109,13 +109,13 @@ module.exports = [{
   },
   {
     prompt: 'Go back to the beginning.',
-    next: 'soul-Start'
+    next: 'soul-start'
   }]),
   img: '',
   sound: ''
 },
 {
-  stageId: 'D1',
+  stageId: 'soul-D1',
   message: `
   You hurry back to the creepy house at the end of the street. Actually, it doesn't look so bad. It's a matter of perspective, right? While considering the house, you falter. You have a choice to make here. What are we going to do?
   `,
@@ -131,34 +131,34 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'E1',
+  stageId: 'soul-E1',
   message: `
   Wow! You're a great person! I mean, we could have done so much together with this knowledge, but I guess you're right. You head into the house, and present the required documents to the ghostly programmer. She thanks you profusely, and you two set to work all day and all night, typing madly, and taking ample breaks to chug coffee and terrible energy drinks. Cut to a few days later, and you have successfully completed SOULSYNC™ technology, where you can successfully program a human soul into code!  
   
   `,
   choices: JSON.stringify([{
     prompt: 'Alright, woohoo! Now let\'s have an equitable share in the success of this work!',
-    next: 'soul-end1'
+    next: 'soul-f1'
   },
   {
     prompt: 'This is evil stuff, actually. I know what I must do.',
-    next: 'soul-end2'
+    next: 'soul-f2'
   },
   {
     prompt: 'Okay, maybe there\'s something to that thievery idea...',
-    next: 'soul-end3'
+    next: 'soul-f3'
   }]),
   img: '',
   sound: ''
 },
 {
-  stageId: 'soul-end1',
+  stageId: 'soul-f1',
   message: `
   You and Miss Ghost are a sensation, interviewed by several talkshows and news syndicates the world over. Celebrities are clamoring for your autographs, Miss Ghost is the first ever noncorporeal face of Vogue, billionaires are offering you loads of cash to preserve their decrepit souls, and children are making TikToks about you. Everybody wins! 
   `,
   choices: JSON.stringify([{
     prompt: 'Start over again?',
-    next: 'soul-Start'
+    next: 'soul-start'
   },
   {
     prompt: 'Go back one step.',
@@ -169,13 +169,13 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'soul-end2',
+  stageId: 'soul-f2',
   message: `
  You become overtaken with the idea that you need to destroy evidence of this mortality-defying technology. You get a little over-excited and drench everything in gasoline. In a truly careless fashion, you also spill some on yourself! Rookie mistake, because when you pause for effect after lighting a match, you go up in smoke before you can finish your stunning one-liner. Too bad, I was wondering what it was. Seemed like it was going to be really clever and concise. It would probably wrap this story up really neatly, too.
   `,
   choices: JSON.stringify([{
     prompt: 'Start over again?',
-    next: 'soul-Start'
+    next: 'soul-start'
   },
   {
     prompt: 'Go back one step.',
@@ -186,7 +186,7 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'soul-end3',
+  stageId: 'soul-f3',
   message: `
   Yessss, I knew you'd see it my way! We'll be rich and famous!
   So, here's what happens: you and I take this technoloy on the road, but I slowly start to convince you that you're crazy. What are you doing talking to a computer, anyway? I just get in your head enough that you start to act a little weird. You make a scene on Jimmy Kimmel. You point at figures and objects that no one else can see. Turns out, I'm really good at getting in your head. 
@@ -195,7 +195,7 @@ module.exports = [{
   `,
   choices: JSON.stringify([{
     prompt: 'Start over again?',
-    next: 'soul-Start'
+    next: 'soul-start'
   },
   {
     prompt: 'Go back one step.',
