@@ -84,7 +84,7 @@ module.exports = [{
     stageId: 'bro-C2',
     message: `Mountains aren’t chill, bro. That’s not the spirit of Bud Light™. You’re thinking of Coors Light, which tastes like ass. So let me do you a favor.”
 
-    You hear the snapping of figures. You’re freezing, on a tiny ledge atop a giant mountain, struggling to breathe in the thin air.
+    You hear the snapping of fingers. You’re freezing, on a tiny ledge atop a giant mountain, struggling to breathe in the thin air.
     
     “Here’s that mountain you wanted.”
     
