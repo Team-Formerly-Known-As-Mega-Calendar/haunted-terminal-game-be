@@ -9,15 +9,6 @@ CREATE TABLE users (
 
 CREATE TABLE stages (
   stage_id TEXT PRIMARY KEY,
-  name TEXT NOT NULL,
-  message TEXT NOT NULL,
-  choices JSONB NOT NULL,
-  img TEXT,
-  sound TEXT
-);
-
-CREATE TABLE stages (
-  stage_id TEXT PRIMARY KEY,
   message TEXT NOT NULL,
   choices JSONB NOT NULL,
   img TEXT,
