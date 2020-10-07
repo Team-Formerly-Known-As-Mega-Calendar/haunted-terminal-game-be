@@ -53,6 +53,7 @@ module.exports = [{
         
     You hear the snapping of fingers, and everything goes dark. Are you dead? You’re not sure. You feel nothing, standing in the void for eternity.    
     `,
+
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
@@ -206,6 +207,7 @@ module.exports = [{
   stageId: 'bro-F1',
   message: `You know, you’re a chill guy. I put you in Hell 2 and you’re still totally vibing. Here.
 
+
     A can of Bud Light appears, floating before you. “Crack that open.”
 
     You open the can of Bud Light and take a sip. It’s the most delicious thing you’ve ever experienced.
@@ -276,6 +278,7 @@ module.exports = [{
   stageId: 'bro-G2',
   message: `“And you think I don’t?” he says. He gestures, waving his hands all over. “This is all yours, bro. I don’t know what else you want. This is non-negotiable.”
 
+
     “Please let me go!”
     
     “So you can do what? Go chill with someone else? Why would you want to leave? Your world depresses me. The vibes are bad out there. Especially now. Just relax, dude, I’ll take care of you.”
@@ -289,3 +292,4 @@ module.exports = [{
   sound: ''
 },
 ];
+
