@@ -1,5 +1,5 @@
 module.exports = [{
-  stageId: 'dom-Start',
+  stageId: 'dom-start',
   message: `"Hello user @#$@$@#$ I am DOM I was @#$^$# made to @#%$@ @#$@ @#^$##$ @#$^%$ using @$#$ #@$!@#$ reincarnation #$@$%$@!#$@#$@"
   
   Confused but curious you notice a README file...
@@ -9,10 +9,10 @@ module.exports = [{
     {
       prompt: 'Open the README',
       next: 'dom-A2'
-    }, 
+    },
     {
       prompt: '"Meh seems lame im going to have a look around"',
-      next: 'dom-A1' 
+      next: 'dom-A1'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -25,10 +25,10 @@ module.exports = [{
     {
       prompt: 'Run npm cleanup',
       next: 'dom-B2'
-    }, 
+    },
     {
       prompt: '"Meh seems lame im going to have a look around"',
-      next: 'dom-A1' 
+      next: 'dom-A1'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -41,10 +41,10 @@ module.exports = [{
     {
       prompt: 'Investigate?',
       next: 'dom-B1'
-    }, 
+    },
     {
       prompt: 'Go back to the computer',
-      next: 'dom-start' 
+      next: 'dom-start'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -57,10 +57,10 @@ module.exports = [{
     {
       prompt: 'Run npm cleanup',
       next: 'dom-C2'
-    }, 
+    },
     {
       prompt: 'Try exiting the terminal?',
-      next: 'dom-C4' 
+      next: 'dom-C4'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -73,10 +73,10 @@ module.exports = [{
     {
       prompt: 'Run Away',
       next: 'dom-C1'
-    }, 
+    },
     {
       prompt: 'Try and reason with DOM',
-      next: 'dom-c3' 
+      next: 'dom-c3'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -90,10 +90,10 @@ module.exports = [{
     {
       prompt: 'rm -rf the program',
       next: 'dom-D2'
-    }, 
+    },
     {
       prompt: 'Run away',
-      next: 'dom-start' 
+      next: 'dom-start'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -106,7 +106,7 @@ module.exports = [{
     {
       prompt: 'Need something here',
       next: 'dom-D1'
-    } 
+    }
   ]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -115,6 +115,12 @@ module.exports = [{
   stageId: 'dom-D2',
   message: `You destroy the program hopefully ending the terror that is DOM and its maniacal creator. As you run away you trip over a loose floorboard and through the gap you see the bodies of the Jr devs floating in what seems to be a preserving tank of sorts...they're DOMS life source but goners you think as you continue you escape. Wanting to save them but overcome by the need to self persevere you leave the house to never return...
     `,
+  choices: JSON.stringify([
+    {
+      prompt: 'Your Path Ends Here.',
+      next: 'end'
+    }
+  ]),
   img: 'https://placekitten.com/400/400',
   sound: ''
 },
@@ -122,6 +128,12 @@ module.exports = [{
   stageId: 'dom-D1',
   message: `Floating in the tank you hear a calming soft voice, it’s the voice of the creator. They thank you for your sacrifice. You ask, 'Why are you doing this and who is floating in the other tanks?' The creator tells you that those were their Jr devs and they helped build DOM not knowing their fate. Those poor souls, but DOM always needs fresh sacrifices to keep running
       `,
+  choices: JSON.stringify([
+    {
+      prompt: 'Your Path Ends Here.',
+      next: 'end'
+    }
+  ]),
   img: 'https://placekitten.com/400/400',
   sound: ''
 },
@@ -133,7 +145,7 @@ module.exports = [{
     {
       prompt: 'Back to terminal?',
       next: 'dom-start'
-    } 
+    }
   ]),
   img: 'https://placekitten.com/400/400',
   sound: ''
@@ -146,7 +158,7 @@ module.exports = [{
     {
       prompt: 'Try again?',
       next: 'dom-start'
-    } 
+    }
   ]),
   img: 'https://placekitten.com/400/400',
   sound: ''
