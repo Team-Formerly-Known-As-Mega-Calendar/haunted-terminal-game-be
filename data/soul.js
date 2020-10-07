@@ -12,7 +12,7 @@ module.exports = [{
     next: 'soul-A1'
   }]),
   img: 'https://imgur.com/tg5h5pQ',
-  sound: '',
+  sound: 'ScaryGirl.mp3',
 },
 
 {
@@ -42,7 +42,7 @@ module.exports = [{
     next: 'soul-start'
   }]),
   img: 'https://imgur.com/e7HMMNb',
-  sound: ''
+  sound: 'wlaugh.mp3'
 },
 
 {
@@ -163,7 +163,7 @@ module.exports = [{
     }
   ]),
   img: 'https://imgur.com/fFsWmYA',
-  sound: ''
+  sound: 'claps3.mp3'
 },
 {
   stageId: 'soul-F2',
@@ -177,7 +177,7 @@ module.exports = [{
     }
   ]),
   img: 'https://imgur.com/0PKEgB2',
-  sound: ''
+  sound: 'AAAGH1.mp3'
 },
 {
   stageId: 'soul-F3',
@@ -194,5 +194,5 @@ module.exports = [{
     }
   ]),
   img: 'https://imgur.com/iWgMemo',
-  sound: ''
+  sound: 'GHOST8B.mp3'
 }];
