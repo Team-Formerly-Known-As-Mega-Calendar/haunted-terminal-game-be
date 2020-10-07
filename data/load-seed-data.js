@@ -1,29 +1,34 @@
 const client = require('../lib/client');
-const broData = require('./bro')
+const broData = require('./bro');
+const domData = require('./dom');
+const soulData = require('./soul');
+const endData = require('./end');
 
 run();
 
 async function run() {
-    try {
-        await client.connect();
+  try {
+    await client.connect();
 
-        await Promise.all(
-            broData.map(broStage => {
-                return client.query(`
+    const stages = broData.concat(domData, soulData, endData);
+
+    await Promise.all(
+      stages.map(stage => {
+        return client.query(`
                             INSERT INTO stages (stage_id, message, choices, img, sound)
                             VALUES ($1, $2, $3, $4, $5)
                             RETURNING *;
                         `,
-                [broStage.stageId, broStage.message, broStage.choices, broStage.img, broStage.sound])
-            })
-        );
+        [stage.stageId, stage.message, stage.choices, stage.img, stage.sound]);
+      })
+    );
 
-        console.log('seed data load complete')
-    }
-    catch(err) {
-        console.log(err);
-    }
-    finally {
-        client.end();
-    }
+    console.log('seed data load complete');
+  }
+  catch(err) {
+    console.log(err);
+  }
+  finally {
+    client.end();
+  }
 }

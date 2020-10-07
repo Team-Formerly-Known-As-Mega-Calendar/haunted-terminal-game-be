@@ -10,7 +10,6 @@ describe('stage routes', () => {
       .post('/api/v1/stage')
       .send({
         stageId: '1-origin',
-        name: 'D.O.M.',
         message: 'This is 1-origin node',
         choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
         img: 'placekitten.com/200/200',
@@ -20,7 +19,6 @@ describe('stage routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           stageId: '1-origin',
-          name: 'D.O.M.',
           message: 'This is 1-origin node',
           choices: [{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }],
           img: 'placekitten.com/200/200',
@@ -32,7 +30,6 @@ describe('stage routes', () => {
   it('gets a stage by its stageId via GET', async() => {
     const stage = await Stage.insert({
       stageId: '1-origin',
-      name: 'D.O.M.',
       message: 'This is 1-origin node',
       choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
       img: 'placekitten.com/200/200',
@@ -42,7 +39,6 @@ describe('stage routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           stageId: '1-origin',
-          name: 'D.O.M.',
           message: 'This is 1-origin node',
           choices: [{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }],
           img: 'placekitten.com/200/200',
@@ -54,7 +50,6 @@ describe('stage routes', () => {
   it('updates a stage by its stageId via PUT', async() => {
     const stage = await Stage.insert({
       stageId: '1-origin',
-      name: 'D.O.M.',
       message: 'This is 1-origin node',
       choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
       img: 'placekitten.com/200/200',
@@ -64,7 +59,6 @@ describe('stage routes', () => {
       .put(`/api/v1/stage/${stage.stageId}`)
       .send({
         stageId: '1-origin',
-        name: 'B.R.O.',
         message: 'This is 2-origin node',
         choices: JSON.stringify([{ prompt: 'choice 1', next: '2-A1' }, { prompt: 'choice 2', next: '2-A2' }]),
         img: 'placekitten.com/200/200',
@@ -73,7 +67,6 @@ describe('stage routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           stageId: '1-origin',
-          name: 'B.R.O.',
           message: 'This is 2-origin node',
           choices: [{ prompt: 'choice 1', next: '2-A1' }, { prompt: 'choice 2', next: '2-A2' }],
           img: 'placekitten.com/200/200',
@@ -85,7 +78,6 @@ describe('stage routes', () => {
   it('deletes a stage via DELETE', async() => {
     const stageToDelete = await Stage.insert({
       stageId: '1-origin',
-      name: 'D.O.M.',
       message: 'This is 1-origin node',
       choices: JSON.stringify([{ prompt: 'choice 1', next: '1-A1' }, { prompt: 'choice 2', next: '1-A2' }]),
       img: 'placekitten.com/200/200',
