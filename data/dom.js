@@ -76,7 +76,7 @@ module.exports = [{
     },
     {
       prompt: 'Try and reason with DOM',
-      next: 'dom-c3'
+      next: 'dom-C3'
     }]),
   img: 'https://placekitten.com/400/400',
   sound: ''
