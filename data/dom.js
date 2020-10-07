@@ -14,8 +14,8 @@ module.exports = [{
       prompt: '"Meh seems lame im going to have a look around"',
       next: 'dom-A1'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/ZqBmIK8',
+  sound: 'impact-dramatic-slow-motion_MyZ7TD4d_NWM.mp3'
 },
 {
   stageId: 'dom-A2',
@@ -30,8 +30,8 @@ module.exports = [{
       prompt: '"Meh seems lame im going to have a look around"',
       next: 'dom-A1'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/ZqBmIK8',
+  sound: 'footsteps1.mp3'
 },
 {
   stageId: 'dom-A1',
@@ -46,8 +46,8 @@ module.exports = [{
       prompt: 'Go back to the computer',
       next: 'dom-start'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/Dk5DWFT',
+  sound: 'labclip.mp3'
 },
 {
   stageId: 'dom-B2',
@@ -62,8 +62,8 @@ module.exports = [{
       prompt: 'Try exiting the terminal?',
       next: 'dom-C4'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/ZqBmIK8',
+  sound: 'heartbeat.mp3'
 },
 {
   stageId: 'dom-B1',
@@ -76,10 +76,10 @@ module.exports = [{
     },
     {
       prompt: 'Try and reason with DOM',
-      next: 'dom-c3'
+      next: 'dom-C3'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/OniySxw',
+  sound: 'wickedlaugh1.mp3'
 },
 {
   stageId: 'dom-C2',
@@ -95,8 +95,8 @@ module.exports = [{
       prompt: 'Run away',
       next: 'dom-start'
     }]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/OniySxw',
+  sound: 'wickedlaugh1.mp3'
 },
 {
   stageId: 'dom-C1',
@@ -108,8 +108,8 @@ module.exports = [{
       next: 'dom-D1'
     }
   ]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/Dk5DWFT',
+  sound: 'heartbeat.mp3'
 },
 {
   stageId: 'dom-D2',
@@ -121,8 +121,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/Dk5DWFT',
+  sound: 'horror_coffin_dragged_across_floor.mp3'
 },
 {
   stageId: 'dom-D1',
@@ -134,8 +134,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/4xLUSPg',
+  sound: 'lab.mp3'
 },
 {
   stageId: 'dom-C4',
@@ -147,8 +147,8 @@ module.exports = [{
       next: 'dom-start'
     }
   ]),
-  img: 'https://placekitten.com/400/400',
-  sound: ''
+  img: 'https://imgur.com/carfTjP',
+  sound: 'wickedlaugh1.mp3'
 },
 {
   stageId: 'dom-C3',
@@ -160,7 +160,7 @@ module.exports = [{
       next: 'dom-start'
     }
   ]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://imgur.com/8mBMOUB',
   sound: ''
 }
 ];
