@@ -1,5 +1,8 @@
 const client = require('../lib/client');
 const broData = require('./bro');
+const domData = require('./dom');
+const soulData = require('./soul');
+const endData = require('./end');
 
 run();
 
@@ -7,14 +10,16 @@ async function run() {
   try {
     await client.connect();
 
+    const stages = broData.concat(domData, soulData, endData);
+
     await Promise.all(
-      broData.map(broStage => {
+      stages.map(stage => {
         return client.query(`
                             INSERT INTO stages (stage_id, message, choices, img, sound)
                             VALUES ($1, $2, $3, $4, $5)
                             RETURNING *;
                         `,
-        [broStage.stageId, broStage.message, broStage.choices, broStage.img, broStage.sound]);
+        [stage.stageId, stage.message, stage.choices, stage.img, stage.sound]);
       })
     );
 
