@@ -38,7 +38,7 @@ module.exports = [{
   You try to run, but your legs are stuck together! The terminal light grows brighter and brighter, and you see nothing but a wide grin on the screen. It gets wider, and wider, until it swallows you whole. You\'re doomed to remain in the computer forever! And it doesn't even have any games! Dannnng.
   `,
   choices: JSON.stringify([{
-    prompt:  'Back to the beginning.',
+    prompt: 'Back to the beginning.',
     next: 'soul-start'
   }]),
   img: '',
@@ -156,14 +156,11 @@ module.exports = [{
   message: `
   You and Miss Ghost are a sensation, interviewed by several talkshows and news syndicates the world over. Celebrities are clamoring for your autographs, Miss Ghost is the first ever noncorporeal face of Vogue, billionaires are offering you loads of cash to preserve their decrepit souls, and children are making TikToks about you. Everybody wins! 
   `,
-  choices: JSON.stringify([{
-    prompt: 'Start over again?',
-    next: 'soul-start'
-  },
-  {
-    prompt: 'Go back one step.',
-    next: 'soul-E1'
-  },
+  choices: JSON.stringify([
+    {
+      prompt: 'Your Path Ends Here.',
+      next: 'end'
+    }
   ]),
   img: '',
   sound: ''
@@ -173,14 +170,11 @@ module.exports = [{
   message: `
  You become overtaken with the idea that you need to destroy evidence of this mortality-defying technology. You get a little over-excited and drench everything in gasoline. In a truly careless fashion, you also spill some on yourself! Rookie mistake, because when you pause for effect after lighting a match, you go up in smoke before you can finish your stunning one-liner. Too bad, I was wondering what it was. Seemed like it was going to be really clever and concise. It would probably wrap this story up really neatly, too.
   `,
-  choices: JSON.stringify([{
-    prompt: 'Start over again?',
-    next: 'soul-start'
-  },
-  {
-    prompt: 'Go back one step.',
-    next: 'soul-E1'
-  },
+  choices: JSON.stringify([
+    {
+      prompt: 'Your Path Ends Here.',
+      next: 'end'
+    }
   ]),
   img: '',
   sound: ''
@@ -189,18 +183,15 @@ module.exports = [{
   stageId: 'soul-f3',
   message: `
   Yessss, I knew you'd see it my way! We'll be rich and famous!
-  So, here's what happens: you and I take this technoloy on the road, but I slowly start to convince you that you're crazy. What are you doing talking to a computer, anyway? I just get in your head enough that you start to act a little weird. You make a scene on Jimmy Kimmel. You point at figures and objects that no one else can see. Turns out, I'm really good at getting in your head. 
+  So, here's what happens: you and I take this technology on the road, but I slowly start to convince you that you're crazy. What are you doing talking to a computer, anyway? I just get in your head enough that you start to act a little weird. You make a scene on Jimmy Kimmel. You point at figures and objects that no one else can see. Turns out, I'm really good at getting in your head. 
 
   You return to your home town, utterly defeated and now besieged by slightly-older bullies. You have no friends, have yielded no money from this technology, and you have no prospects. Oh, yeah, and your "friend", Miss Ghost? She haunts you for the rest of your life, but continually reminds you that the truly scary thing is the continually abysmal size of the Gender Wage Gap.
   `,
-  choices: JSON.stringify([{
-    prompt: 'Start over again?',
-    next: 'soul-start'
-  },
-  {
-    prompt: 'Go back one step.',
-    next: 'soul-E1'
-  },
+  choices: JSON.stringify([
+    {
+      prompt: 'Your Path Ends Here.',
+      next: 'end'
+    }
   ]),
   img: '',
   sound: ''
