@@ -35,7 +35,7 @@ module.exports = [{
 {
   stageId: 'soul-A2',
   message: `
-  You try to run, but your legs are stuck together! The terminal light grows brighter and brighter, and you see nothing but a wide grin on the screen. It gets wider, and wider, until it swallows you whole. You\'re doomed to remain in the computer forever! And it doesn't even have any games! Dannnng.
+  You try to run, but your legs are stuck together! The terminal light grows brighter and brighter, and you see nothing but a wide grin on the screen. It gets wider, and wider, until it swallows you whole. You're doomed to remain in the computer forever! And it doesn't even have any games! Dannnng.
   `,
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
