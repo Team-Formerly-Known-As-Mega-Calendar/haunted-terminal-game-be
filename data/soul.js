@@ -11,8 +11,8 @@ module.exports = [{
     prompt: 'Wait, did you say code? Tell me more!',
     next: 'soul-A1'
   }]),
-  img: '',
-  sound: '',
+  img: 'https://imgur.com/tg5h5pQ',
+  sound: 'ScaryGirl.mp3',
 },
 
 {
@@ -28,7 +28,7 @@ module.exports = [{
     prompt: 'Actually, it seems like she might just be overly-dramatic.',
     next: 'soul-B2'
   }]),
-  img: '',
+  img: 'https://imgur.com/BoUqISl',
   sound: ''
 },
 
@@ -41,8 +41,8 @@ module.exports = [{
     prompt: 'Back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
-  sound: ''
+  img: 'https://imgur.com/e7HMMNb',
+  sound: 'wlaugh.mp3'
 },
 
 {
@@ -59,7 +59,7 @@ module.exports = [{
     prompt: 'Um, is this woman even trustworthy? It seems best to just destroy this computer...',
     next: 'soul-C2'
   }]),
-  img: '',
+  img: 'https://imgur.com/yhAHN09',
   sound: ''
 },
 {
@@ -75,7 +75,7 @@ module.exports = [{
     prompt: 'Go back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
+  img: 'https://imgur.com/xK292xo',
   sound: ''
 },
 {
@@ -95,7 +95,7 @@ module.exports = [{
     prompt: 'Ha! What a sucker! Let\'s just keep all this information and build our own magnificent technology. It will bring us fame and fortune!',
     next: 'soul-F3'
   }]),
-  img: '',
+  img: 'https://imgur.com/bC1Cxng',
   sound: ''
 },
 {
@@ -111,7 +111,7 @@ module.exports = [{
     prompt: 'Go back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
+  img: 'https://imgur.com/gyVVqIR',
   sound: ''
 },
 {
@@ -127,7 +127,7 @@ module.exports = [{
     prompt: 'You decide to bail on her. This has gotten boring.',
     next: 'soul-E2'
   }]),
-  img: '',
+  img: 'https://imgur.com/H7N2Fvi',
   sound: ''
 },
 {
@@ -148,7 +148,7 @@ module.exports = [{
     prompt: 'Okay, maybe there\'s something to that thievery idea...',
     next: 'soul-F3'
   }]),
-  img: '',
+  img: 'https://imgur.com/zIXcrmH',
   sound: ''
 },
 {
@@ -162,8 +162,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://imgur.com/fFsWmYA',
+  sound: 'claps3.mp3'
 },
 {
   stageId: 'soul-F2',
@@ -176,8 +176,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://imgur.com/0PKEgB2',
+  sound: 'AAAGH1.mp3'
 },
 {
   stageId: 'soul-F3',
@@ -193,6 +193,6 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://imgur.com/iWgMemo',
+  sound: 'GHOST8B.mp3'
 }];
