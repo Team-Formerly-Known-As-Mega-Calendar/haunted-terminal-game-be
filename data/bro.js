@@ -38,6 +38,7 @@ module.exports = [{
       prompt: '"I like the mountain idea."',
       next: 'bro-C2' 
     }]),
+
   img: 'https://placekitten.com/400/400',
   sound: ''
 },
@@ -63,6 +64,7 @@ module.exports = [{
     prompt: 'Go back one step.',
     next: 'bro-start' 
   }]),
+
   img: 'https://placekitten.com/400/400',
   sound: ''
 },
@@ -292,4 +294,3 @@ module.exports = [{
   sound: ''
 },
 ];
-
