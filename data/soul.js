@@ -35,7 +35,7 @@ module.exports = [{
 {
   stageId: 'soul-A2',
   message: `
-  You try to run, but your legs are stuck together! The terminal light grows brighter and brighter, and you see nothing but a wide grin on the screen. It gets wider, and wider, until it swallows you whole. You\'re doomed to remain in the computer forever! And it doesn't even have any games! Dannnng.
+  You try to run, but your legs are stuck together! The terminal light grows brighter and brighter, and you see nothing but a wide grin on the screen. It gets wider, and wider, until it swallows you whole. You're doomed to remain in the computer forever! And it doesn't even have any games! Dannnng.
   `,
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
@@ -79,7 +79,7 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'C1',
+  stageId: 'soul-C1',
   message: `
   You run up the stairs and exit the house, excited about your new purpose. You steal a bike from one of the dumbstruck kids outside, and book it to the library. 
 
@@ -93,13 +93,13 @@ module.exports = [{
   },
   {
     prompt: 'Ha! What a sucker! Let\'s just keep all this information and build our own magnificent technology. It will bring us fame and fortune!',
-    next: 'soul-f3'
+    next: 'soul-F3'
   }]),
   img: '',
   sound: ''
 },
 {
-  stageId: 'C2',
+  stageId: 'soul-C2',
   message: `
   "WHAT ARE YOU DOING?" she shrieks as you pour the contents of your water bottle all over the keyboard and hard-drive. She starts to laugh a ghoulish laugh. "You think I didn't make COPIES?" You feel her ghosty hands start to clench your throat. "What a fool. Always. Make. Copies!" Everything fades to black. Too bad!
   `,
@@ -138,21 +138,21 @@ module.exports = [{
   `,
   choices: JSON.stringify([{
     prompt: 'Alright, woohoo! Now let\'s have an equitable share in the success of this work!',
-    next: 'soul-f1'
+    next: 'soul-F1'
   },
   {
     prompt: 'This is evil stuff, actually. I know what I must do.',
-    next: 'soul-f2'
+    next: 'soul-F2'
   },
   {
     prompt: 'Okay, maybe there\'s something to that thievery idea...',
-    next: 'soul-f3'
+    next: 'soul-F3'
   }]),
   img: '',
   sound: ''
 },
 {
-  stageId: 'soul-f1',
+  stageId: 'soul-F1',
   message: `
   You and Miss Ghost are a sensation, interviewed by several talkshows and news syndicates the world over. Celebrities are clamoring for your autographs, Miss Ghost is the first ever noncorporeal face of Vogue, billionaires are offering you loads of cash to preserve their decrepit souls, and children are making TikToks about you. Everybody wins! 
   `,
@@ -166,7 +166,7 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'soul-f2',
+  stageId: 'soul-F2',
   message: `
  You become overtaken with the idea that you need to destroy evidence of this mortality-defying technology. You get a little over-excited and drench everything in gasoline. In a truly careless fashion, you also spill some on yourself! Rookie mistake, because when you pause for effect after lighting a match, you go up in smoke before you can finish your stunning one-liner. Too bad, I was wondering what it was. Seemed like it was going to be really clever and concise. It would probably wrap this story up really neatly, too.
   `,
@@ -180,7 +180,7 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'soul-f3',
+  stageId: 'soul-F3',
   message: `
   Yessss, I knew you'd see it my way! We'll be rich and famous!
   So, here's what happens: you and I take this technology on the road, but I slowly start to convince you that you're crazy. What are you doing talking to a computer, anyway? I just get in your head enough that you start to act a little weird. You make a scene on Jimmy Kimmel. You point at figures and objects that no one else can see. Turns out, I'm really good at getting in your head. 
