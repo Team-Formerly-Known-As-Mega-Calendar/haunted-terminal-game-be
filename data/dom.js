@@ -1,5 +1,5 @@
 module.exports = [{
-  stageId: 'dom-Start',
+  stageId: 'dom-start',
   message: `"Hello user @#$@$@#$ I am DOM I was @#$^$# made to @#%$@ @#$@ @#^$##$ @#$^%$ using @$#$ #@$!@#$ reincarnation #$@$%$@!#$@#$@"
   
   Confused but curious you notice a README file...
