@@ -5,12 +5,12 @@ module.exports = [{
     {
       prompt: 'Yes',
       next: 'bro-A1'
-    }, 
+    },
     {
       prompt: 'No',
-      next: 'bro-A2' 
+      next: 'bro-A2'
     }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/aUM2tPq.png',
   sound: ''
 },
 {
@@ -33,13 +33,12 @@ module.exports = [{
     {
       prompt: '"I like the beach."',
       next: 'bro-C1'
-    }, 
+    },
     {
       prompt: '"I like the mountain idea."',
-      next: 'bro-C2' 
+      next: 'bro-C2'
     }]),
-
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/ikWULhE.jpg',
   sound: ''
 },
 {
@@ -54,18 +53,16 @@ module.exports = [{
         
     You hear the snapping of fingers, and everything goes dark. Are you dead? You’re not sure. You feel nothing, standing in the void for eternity.    
     `,
-
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
-  }, 
-      
+  },
+
   {
     prompt: 'Go back one step.',
-    next: 'bro-start' 
+    next: 'bro-start'
   }]),
-
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/gFOWLZn.jpg',
   sound: ''
 },
 {
@@ -75,12 +72,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: 'Yes',
     next: 'bro-D1'
-  }, 
+  },
   {
     prompt: 'No',
-    next: 'bro-D2' 
+    next: 'bro-D2'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/hGq6u89.jpg',
   sound: ''
 },
 {
@@ -95,12 +92,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
-  }, 
+  },
   {
     prompt: 'Back one step.',
-    next: 'bro-A1' 
+    next: 'bro-A1'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/4zj2Wl2.jpg',
   sound: ''
 },
 {
@@ -110,7 +107,7 @@ module.exports = [{
     prompt: 'What do you mean?',
     next: 'bro-D3'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/k6MRZOp.jpg',
   sound: ''
 },
 {
@@ -121,12 +118,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
-  }, 
+  },
   {
     prompt: 'Back one step.',
-    next: 'bro-C1' 
+    next: 'bro-C1'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/OXffZge.jpg',
   sound: ''
 },
 {
@@ -136,7 +133,7 @@ module.exports = [{
     prompt: 'Are you gonna eat me?',
     next: 'bro-D4'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/owPaExf.jpg',
   sound: ''
 },
 {
@@ -146,7 +143,7 @@ module.exports = [{
     prompt: 'What?',
     next: 'bro-D5'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/3MmIhy7.jpg',
   sound: ''
 },
 {
@@ -156,7 +153,7 @@ module.exports = [{
     prompt: '"What do you mean by bad stuff?"',
     next: 'bro-D6'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/gcdvOX6.jpg',
   sound: ''
 },
 {
@@ -165,12 +162,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: '"Sure."',
     next: 'bro-E1'
-  }, 
+  },
   {
     prompt: '"No thanks."',
-    next: 'bro-E2' 
+    next: 'bro-E2'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/k7CdFjj.jpg',
   sound: ''
 },
 {
@@ -181,12 +178,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: '"This is awesome."',
     next: 'bro-F1'
-  }, 
+  },
   {
-    prompt: '"No thanks."',
-    next: 'bro-F2' 
+    prompt: '"I hate it."',
+    next: 'bro-F2'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/pVnE9dR.jpg',
   sound: ''
 },
 {
@@ -197,18 +194,17 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
-  }, 
+  },
   {
     prompt: 'Back one step.',
-    next: 'bro-D5' 
+    next: 'bro-D6'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/adzOHfi.jpg',
   sound: ''
 },
 {
   stageId: 'bro-F1',
   message: `You know, you’re a chill guy. I put you in Hell 2 and you’re still totally vibing. Here.
-
 
     A can of Bud Light appears, floating before you. “Crack that open.”
 
@@ -230,12 +226,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: '"I can\'t. I have a life."',
     next: 'bro-G2'
-  }, 
+  },
   {
     prompt: '"What kind-of bro would trap another bro against his will?"',
-    next: 'bro-G1' 
+    next: 'bro-G1'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/iyMBGQL.jpg',
   sound: ''
 },
 {
@@ -246,12 +242,12 @@ module.exports = [{
   choices: JSON.stringify([{
     prompt: 'Back to the beginning.',
     next: 'bro-start'
-  }, 
+  },
   {
     prompt: 'Back one step.',
-    next: 'bro-E1' 
+    next: 'bro-E1'
   }]),
-  img: 'https://placekitten.com/400/400',
+  img: 'https://i.imgur.com/QRL1KOe.jpg',
   sound: ''
 },
 {
@@ -269,28 +265,31 @@ module.exports = [{
     “Thank you for using B.R.O., Budweiser Remote Operations.”
 
     You stand and run from the house—your life intact. Time passes and you wonder if you made the right choice. You try to remember the taste of Bud Light 2™ as the “real world” crumbles around you. A year later you return to the house to find it transformed. What used to be a creepy house is now a concrete duplex. B.R.O. has disappeared, a piece of you with him.`,
-  choices: JSON.stringify([{
-    prompt: 'GAME OVER',
-    next: ''
-  }]),
-  img: 'https://placekitten.com/400/400',
+  choices: JSON.stringify([
+    {
+      prompt: 'GAME OVER',
+      next: 'end'
+    }
+  ]),
+  img: 'https://i.imgur.com/mhkubQC.jpg',
   sound: ''
 },
 {
   stageId: 'bro-G2',
   message: `“And you think I don’t?” he says. He gestures, waving his hands all over. “This is all yours, bro. I don’t know what else you want. This is non-negotiable.”
 
-
     “Please let me go!”
     
     “So you can do what? Go chill with someone else? Why would you want to leave? Your world depresses me. The vibes are bad out there. Especially now. Just relax, dude, I’ll take care of you.”
     
     Years pass. You grow accustomed to your new reality. You receive anything you want at your command—all you have to do is ask B.R.O. Things feel real at first, but time passes and you begin to see through the simulation—everything looks artificial. It doesn’t matter anyway, as B.R.O. becomes bored with you and neglects your requests. More time passes and you don’t hear from him anymore. You find yourself back where you were, sitting in that room with the couches, the same NFL game playing on loop for eternity.    `,
-  choices: JSON.stringify([{
-    prompt: 'GAME OVER',
-    next: ''
-  }]),
-  img: 'https://placekitten.com/400/400',
+  choices: JSON.stringify([
+    {
+      prompt: 'GAME OVER',
+      next: 'end'
+    }
+  ]),
+  img: 'https://i.imgur.com/7hYC7Ka.jpg',
   sound: ''
 },
 ];
