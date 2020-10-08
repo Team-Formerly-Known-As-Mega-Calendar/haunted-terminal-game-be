@@ -180,7 +180,7 @@ module.exports = [{
     next: 'bro-F1'
   },
   {
-    prompt: '"No thanks."',
+    prompt: '"I hate it."',
     next: 'bro-F2'
   }]),
   img: 'https://i.imgur.com/pVnE9dR.jpg',
@@ -197,7 +197,7 @@ module.exports = [{
   },
   {
     prompt: 'Back one step.',
-    next: 'bro-D5'
+    next: 'bro-D6'
   }]),
   img: 'https://i.imgur.com/adzOHfi.jpg',
   sound: ''
