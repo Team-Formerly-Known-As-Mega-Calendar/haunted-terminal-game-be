@@ -21,16 +21,16 @@ module.exports = [{
 {
   stageId: 'credits',
   message: `Your terminal was haunted due to the work of six cursed Javascript developers.
-  ლ(¯ロ¯"ლ) Thomas Stussi
-  ╭༼ ʘ̆~◞౪◟~ʘ̆ ༽╮ Michelle Stermitz
-  (ノ͡° ͜ʖ ͡°)ノ︵┻┻ Charlie Smith
-  ٩(◕‿◕)۶ Sarah Rector
-  (￣(ｴ)￣) Ryan Diffenbaugh
-  (っಠ‿ಠ)っ Brooke Perkins`,
+  ლ(¯ロ¯"ლ) Thomas Stussi | @ThomasStussi
+  ╭༼ ʘ̆~◞౪◟~ʘ̆ ༽╮ Michelle Stermitz | @michmitzpdx
+  (ノ͡° ͜ʖ ͡°)ノ︵┻┻ Charlie Smith | @internetch4rles
+  ٩(◕‿◕)۶ Sarah Rector | @Rector206
+  (￣(ｴ)￣) Ryan Diffenbaugh | @ryan_diff
+  (っಠ‿ಠ)っ Brooke Perkins | @bbperkz`,
   choices: JSON.stringify([
     {
       prompt: 'Return to the Beginning',
-      next: 'storySelect'
+      next: 'intro-7'
     },
     {
       prompt: 'Exit Game',
