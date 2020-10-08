@@ -22,8 +22,8 @@ module.exports = [{
   stageId: 'credits',
   message: `Your terminal was haunted due to the work of six cursed Javascript developers.
   ლ(¯ロ¯"ლ) Thomas Stussi | @ThomasStussi
-  ╭༼ ʘ̆~◞౪◟~ʘ̆ ༽╮ Michelle Stermitz | @
-  (ノ͡° ͜ʖ ͡°)ノ︵┻┻ Charlie Smith | @
+  ╭༼ ʘ̆~◞౪◟~ʘ̆ ༽╮ Michelle Stermitz | @michmitzpdx
+  (ノ͡° ͜ʖ ͡°)ノ︵┻┻ Charlie Smith | @internetch4rles
   ٩(◕‿◕)۶ Sarah Rector | @Rector206
   (￣(ｴ)￣) Ryan Diffenbaugh | @ryan_diff
   (っಠ‿ಠ)っ Brooke Perkins | @bbperkz`,
