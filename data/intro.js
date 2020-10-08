@@ -57,7 +57,7 @@ module.exports = [{
   }
   ]),
   img: 'https://specials-images.forbesimg.com/imageserve/1126082719/960x0.jpg',
-  sound: 'hit-slow-motion-intense-GyaEpPNd_NWM.mp3',
+  sound: 'hit-slow-motion-intense_GyaEpPNd_NWM.mp3',
 },
 {
   stageId: 'intro-5',
