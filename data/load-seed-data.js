@@ -3,6 +3,7 @@ const broData = require('./bro');
 const domData = require('./dom');
 const soulData = require('./soul');
 const endData = require('./end');
+const introData = require('./intro');
 
 run();
 
@@ -10,7 +11,7 @@ async function run() {
   try {
     await client.connect();
 
-    const stages = broData.concat(domData, soulData, endData);
+    const stages = broData.concat(domData, soulData, endData, introData);
 
     await Promise.all(
       stages.map(stage => {
