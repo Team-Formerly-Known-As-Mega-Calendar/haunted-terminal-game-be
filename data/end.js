@@ -30,7 +30,7 @@ module.exports = [{
   choices: JSON.stringify([
     {
       prompt: 'Return to the Beginning',
-      next: 'storySelect'
+      next: 'intro-7'
     },
     {
       prompt: 'Exit Game',
