@@ -14,7 +14,7 @@ module.exports = [{
       prompt: '"Meh seems lame im going to have a look around"',
       next: 'dom-A1'
     }]),
-  img: 'https://imgur.com/ZqBmIK8',
+  img: 'https://i.imgur.com/ZqBmIK8.jpg',
   sound: 'impact-dramatic-slow-motion_MyZ7TD4d_NWM.mp3'
 },
 {
@@ -30,7 +30,7 @@ module.exports = [{
       prompt: '"Meh seems lame im going to have a look around"',
       next: 'dom-A1'
     }]),
-  img: 'https://imgur.com/ZqBmIK8',
+  img: 'https://i.imgur.com/ZqBmIK8.jpg',
   sound: 'footsteps1.mp3'
 },
 {
@@ -46,7 +46,7 @@ module.exports = [{
       prompt: 'Go back to the computer',
       next: 'dom-start'
     }]),
-  img: 'https://imgur.com/Dk5DWFT',
+  img: 'https://i.imgur.com/Dk5DWFT.png',
   sound: 'labclip.mp3'
 },
 {
@@ -62,7 +62,7 @@ module.exports = [{
       prompt: 'Try exiting the terminal?',
       next: 'dom-C4'
     }]),
-  img: 'https://imgur.com/ZqBmIK8',
+  img: 'https://i.imgur.com/ZqBmIK8.jpg',
   sound: 'heartbeat.mp3'
 },
 {
@@ -78,7 +78,7 @@ module.exports = [{
       prompt: 'Try and reason with DOM',
       next: 'dom-C3'
     }]),
-  img: 'https://imgur.com/OniySxw',
+  img: 'https://i.imgur.com/OniySxw.png',
   sound: 'wickedlaugh1.mp3'
 },
 {
@@ -95,7 +95,7 @@ module.exports = [{
       prompt: 'Run away',
       next: 'dom-start'
     }]),
-  img: 'https://imgur.com/OniySxw',
+  img: 'https://i.imgur.com/OniySxw.png',
   sound: 'wickedlaugh1.mp3'
 },
 {
@@ -108,7 +108,7 @@ module.exports = [{
       next: 'dom-D1'
     }
   ]),
-  img: 'https://imgur.com/Dk5DWFT',
+  img: 'https://i.imgur.com/Dk5DWFT.png',
   sound: 'heartbeat.mp3'
 },
 {
@@ -121,7 +121,7 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: 'https://imgur.com/Dk5DWFT',
+  img: 'https://i.imgur.com/Dk5DWFT.png',
   sound: 'horror_coffin_dragged_across_floor.mp3'
 },
 {
@@ -134,7 +134,7 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: 'https://imgur.com/4xLUSPg',
+  img: 'https://i.imgur.com/4xLUSPg.jpg',
   sound: 'lab.mp3'
 },
 {
@@ -147,7 +147,7 @@ module.exports = [{
       next: 'dom-start'
     }
   ]),
-  img: 'https://imgur.com/carfTjP',
+  img: 'https://i.imgur.com/carfTjP.png',
   sound: 'wickedlaugh1.mp3'
 },
 {
@@ -160,7 +160,7 @@ module.exports = [{
       next: 'dom-start'
     }
   ]),
-  img: 'https://imgur.com/8mBMOUB',
+  img: 'https://i.imgur.com/8mBMOUB.png',
   sound: ''
 }
 ];

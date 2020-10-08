@@ -4,7 +4,7 @@ module.exports = [{
   choices: JSON.stringify([
     {
       prompt: 'Try Another Path',
-      next: 'storySelect'
+      next: 'intro-7'
     },
     {
       prompt: 'Exit Game',
@@ -16,7 +16,7 @@ module.exports = [{
     }
   ]),
   img: '',
-  sound: 'claps3'
+  sound: 'claps3.mp3'
 },
 {
   stageId: 'credits',
