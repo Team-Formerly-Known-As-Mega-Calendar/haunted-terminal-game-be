@@ -38,11 +38,7 @@ module.exports = [{
       prompt: '"I like the mountain idea."',
       next: 'bro-C2'
     }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/ikWULhE.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -66,11 +62,7 @@ module.exports = [{
     prompt: 'Go back one step.',
     next: 'bro-start'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/gFOWLZn.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -85,11 +77,7 @@ module.exports = [{
     prompt: 'No',
     next: 'bro-D2'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/hGq6u89.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -109,11 +97,7 @@ module.exports = [{
     prompt: 'Back one step.',
     next: 'bro-A1'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/4zj2Wl2.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -123,11 +107,7 @@ module.exports = [{
     prompt: 'What do you mean?',
     next: 'bro-D3'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/k6MRZOp.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -143,11 +123,7 @@ module.exports = [{
     prompt: 'Back one step.',
     next: 'bro-C1'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/OXffZge.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -157,11 +133,7 @@ module.exports = [{
     prompt: 'Are you gonna eat me?',
     next: 'bro-D4'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/owPaExf.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -171,11 +143,7 @@ module.exports = [{
     prompt: 'What?',
     next: 'bro-D5'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/3MmIhy7.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -185,11 +153,7 @@ module.exports = [{
     prompt: '"What do you mean by bad stuff?"',
     next: 'bro-D6'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/gcdvOX6.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -203,11 +167,7 @@ module.exports = [{
     prompt: '"No thanks."',
     next: 'bro-E2'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/k7CdFjj.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -220,17 +180,10 @@ module.exports = [{
     next: 'bro-F1'
   },
   {
-<<<<<<< HEAD
-    prompt: '"No thanks."',
-    next: 'bro-F2'
-  }]),
-  img: 'https://placekitten.com/400/400',
-=======
     prompt: '"I hate it."',
     next: 'bro-F2'
   }]),
   img: 'https://i.imgur.com/pVnE9dR.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -244,15 +197,9 @@ module.exports = [{
   },
   {
     prompt: 'Back one step.',
-<<<<<<< HEAD
-    next: 'bro-D5'
-  }]),
-  img: 'https://placekitten.com/400/400',
-=======
     next: 'bro-D6'
   }]),
   img: 'https://i.imgur.com/adzOHfi.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -284,11 +231,7 @@ module.exports = [{
     prompt: '"What kind-of bro would trap another bro against his will?"',
     next: 'bro-G1'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/iyMBGQL.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -304,11 +247,7 @@ module.exports = [{
     prompt: 'Back one step.',
     next: 'bro-E1'
   }]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/QRL1KOe.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -332,11 +271,7 @@ module.exports = [{
       next: 'end'
     }
   ]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/mhkubQC.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 {
@@ -354,11 +289,7 @@ module.exports = [{
       next: 'end'
     }
   ]),
-<<<<<<< HEAD
-  img: 'https://placekitten.com/400/400',
-=======
   img: 'https://i.imgur.com/7hYC7Ka.jpg',
->>>>>>> 4dca9721dff3d7b00a29fcf92ea4f8d87c3e9325
   sound: ''
 },
 ];
