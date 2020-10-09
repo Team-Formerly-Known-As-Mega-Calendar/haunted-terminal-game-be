@@ -212,4 +212,3 @@ module.exports = [{
   img: 'https://i.imgur.com/iWgMemo.png',
   sound: 'GHOST8B.mp3'
 }];
-
