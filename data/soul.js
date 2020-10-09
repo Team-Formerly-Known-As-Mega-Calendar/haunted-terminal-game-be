@@ -11,8 +11,8 @@ module.exports = [{
     prompt: 'Wait, did you say code? Tell me more!',
     next: 'soul-A1'
   }]),
-  img: '',
-  sound: '',
+  img: 'https://i.imgur.com/tg5h5pQ.png',
+  sound: 'ScaryGirl.mp3',
 },
 
 {
@@ -28,7 +28,7 @@ module.exports = [{
     prompt: 'Actually, it seems like she might just be overly-dramatic.',
     next: 'soul-B2'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/BoUqISl.png',
   sound: ''
 },
 
@@ -41,8 +41,8 @@ module.exports = [{
     prompt: 'Back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
-  sound: ''
+  img: 'https://i.imgur.com/e7HMMNb.png',
+  sound: 'wlaugh.mp3'
 },
 
 {
@@ -59,7 +59,7 @@ module.exports = [{
     prompt: 'Um, is this woman even trustworthy? It seems best to just destroy this computer...',
     next: 'soul-C2'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/yhAHN09.jpg',
   sound: ''
 },
 {
@@ -75,7 +75,7 @@ module.exports = [{
     prompt: 'Go back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/xK292xo.png',
   sound: ''
 },
 {
@@ -95,7 +95,7 @@ module.exports = [{
     prompt: 'Ha! What a sucker! Let\'s just keep all this information and build our own magnificent technology. It will bring us fame and fortune!',
     next: 'soul-F3'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/bC1Cxng.jpg',
   sound: ''
 },
 {
@@ -111,7 +111,7 @@ module.exports = [{
     prompt: 'Go back to the beginning.',
     next: 'soul-start'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/gyVVqIR.png',
   sound: ''
 },
 {
@@ -127,7 +127,7 @@ module.exports = [{
     prompt: 'You decide to bail on her. This has gotten boring.',
     next: 'soul-E2'
   }]),
-  img: '',
+  img: 'https://i.imgur.com/H7N2Fvi.png',
   sound: ''
 },
 {
@@ -148,6 +148,22 @@ module.exports = [{
     prompt: 'Okay, maybe there\'s something to that thievery idea...',
     next: 'soul-F3'
   }]),
+  img: 'https://i.imgur.com/zIXcrmH.png',
+  sound: ''
+},
+{
+  stageId: 'soul-E2',
+  message: `
+  "You're going to GHOST ME? I'll show you GHOSTING!" she wraps you in an ethereal shroud of doom that slowly sucks the life out of you. You become a ghost, too, which is actually a little awkward for everyone. Oh well, hindsight is 20/20! 
+  `,
+  choices: JSON.stringify([{
+    prompt: 'Go back one step.',
+    next: 'soul-D1'
+  },
+  {
+    prompt: 'Go back to the beginning.',
+    next: 'soul-start'
+  }]),
   img: '',
   sound: ''
 },
@@ -162,8 +178,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://i.imgur.com/fFsWmYA.png',
+  sound: 'claps3.mp3'
 },
 {
   stageId: 'soul-F2',
@@ -176,8 +192,8 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://i.imgur.com/0PKEgB2.jpg',
+  sound: 'AAAGH1.mp3'
 },
 {
   stageId: 'soul-F3',
@@ -193,7 +209,7 @@ module.exports = [{
       next: 'end'
     }
   ]),
-  img: '',
-  sound: ''
+  img: 'https://i.imgur.com/iWgMemo.png',
+  sound: 'GHOST8B.mp3'
 }];
 
