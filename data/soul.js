@@ -152,25 +152,9 @@ module.exports = [{
   sound: ''
 },
 {
-  stageId: 'soul-E2',
-  message: `
-  "You're going to GHOST ME? I'll show you GHOSTING!" she wraps you in an ethereal shroud of doom that slowly sucks the life out of you. You become a ghost, too, which is actually a little awkward for everyone. Oh well, hindsight is 20/20! 
-  `,
-  choices: JSON.stringify([{
-    prompt: 'Go back one step.',
-    next: 'soul-D1'
-  },
-  {
-    prompt: 'Go back to the beginning.',
-    next: 'soul-start'
-  }]),
-  img: '',
-  sound: ''
-},
-{
   stageId: 'soul-F1',
   message: `
-  You and Miss Ghost are a sensation, interviewed by several talkshows and news syndicates the world over. Celebrities are clamoring for your autographs, Miss Ghost is the first ever noncorporeal face of Vogue, billionaires are offering you loads of cash to preserve their decrepit souls, and children are making TikToks about you. Everybody wins! 
+  "You're going to GHOST ME? I'll show you GHOSTING!" she wraps you in an ethereal shroud of doom that slowly sucks the life out of you. You become a ghost, too, which is actually a little awkward for everyone. Oh well, hindsight is 20/20! 
   `,
   choices: JSON.stringify([
     {
